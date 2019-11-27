@@ -1,0 +1,75 @@
+.portfolioList {
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+
+}
+
+.portfolioContainer {
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+
+}
+
+#table{
+  margin:auto;
+  width:700px;
+  border-radius: 15px;
+  Padding: 20px;
+  border: solid 1px #002856;
+  border-radius: 20px;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+table, td, th, td{
+
+  justify-content: center;
+  vertical-align:middle;
+}
+
+th, td {
+  white-space: nowrap;
+}
+
+thead, tbody{
+
+}
+
+
+.folioForm{
+  display:flex;
+  justify-content: center;
+  margin:auto;
+  margin-top:5%;
+  margin-bottom:5%;
+  width:600px;
+  background-color: white;
+  font-size: 1.2em;
+  Padding: 20px;
+  border: solid 1px #002856;
+  border-radius: 20px;
+  font-family: 'Roboto', sans-serif;
+}
+
+#portfolioTotal{
+  display:flex;
+  justify-content: center;
+  padding: 5%
+}
+
+.input-group{
+  display:flex;
+  justify-content:space-around;
+  padding:10px;
+}
+
+.currency-selector{
+    font-size: 0.8em;
+    padding-left: 15px;
+    margin: 0;
+    width: 525px;
+    height: 50px;
+
+}
